@@ -1,0 +1,119 @@
+header h1{
+     text-align: center;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+header{
+    background-color: black;
+    padding: 40px;
+   
+}
+nav{
+    padding: 20px;
+    background-color: yellow;
+    
+}
+nav a{
+    margin-left: 10px;
+    font-style: oblique;
+    color: black;
+    
+}
+section h2{
+    color: red;
+    
+}
+section p{
+    
+    padding-left: 3px;
+    
+}
+.img1{
+    width: 15%;
+    border-radius: 50%;
+   padding-left: 30px;
+}
+.img2{
+    width: 23%;
+    border-radius: 30%;
+    padding-left: 30px;
+   
+   
+}
+ section h3{
+     margin-left: 700px;
+     font-family: 'Times New Roman', Times, serif;
+
+ }
+.container{
+    height: 20px;
+    background-color: grey;
+    position: relative;
+}
+.imgg{
+   width: 15%;
+   margin-left: 61px;
+}
+.tech{
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 200;
+   color: blue;
+    
+    
+    
+}
+.techimg{
+    width: 5%;
+    padding-left: 10px;
+
+    
+}
+.subheading-right{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 35px ;
+    font-weight: bold;
+    text-align: left;
+    padding-bottom: 50px;
+}
+
+
+
+.content{
+    font-size: 21px !important;
+    text-align: left;
+    padding-left: 150px;
+    padding-right: 75px;
+}
+
+#container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#container > div{
+    margin: 20px;
+    width: 600px;
+}
+
+/* Container for skill bars */
+.container {
+    width: 60%; /* Full width */
+    background-color: #ddd; /* Grey background */
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    
+}
+  
+.skills {
+    text-align: right; /* Right-align text */
+    padding-top: 10px; /* Add top padding */
+    padding-bottom: 10px; /* Add bottom padding */
+    color: white; /* White text color */
+    border-radius: 5px;
+}
+  
+.skill1 {width: 50%; background-color: #04AA6D;} /* Green */
+.skill2 {width: 90%; background-color: #2196F3;} /* Blue */
+
